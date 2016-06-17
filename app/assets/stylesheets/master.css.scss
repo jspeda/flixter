@@ -1,3 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Quando);
+
+
+
 body {
   padding-top: 40px;
+}
+
+.navbar {
+  border-radius: 0;
+  font-family: "Helvetica Neue", Helvetica;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background:url('txture.png');
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: "Quando", serif;
+  color: white;
 }
