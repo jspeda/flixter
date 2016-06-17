@@ -8,6 +8,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="wrap">
 <nav class="navbar-fixed-top navbar navbar-inverse" role="nevigation">
   <div class="container-fluid">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target = "#bs-example-navbar-collapse-1">
@@ -45,6 +46,20 @@
 <% end %>
 
 <%= yield %>
+
+</div>
+
+<br class="clr" />
+
+<div id="footer">
+  <div class="container">
+    <b>Footer Here</b>
+    <br />
+    <%= link_to 'Link', '#' %>
+  </div>
+</div>
+
+
 
 </body>
 </html>
