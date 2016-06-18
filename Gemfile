@@ -52,3 +52,6 @@ gem 'sass-rails'
 
 # Add devise
 gem 'devise'
+
+# Add SimpleForm
+gem 'simple_form'
