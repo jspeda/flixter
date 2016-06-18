@@ -19,7 +19,6 @@ class Instructor::CoursesController < ApplicationController
   end
 
 
-
   private
 
   def course_params
