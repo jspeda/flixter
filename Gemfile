@@ -55,3 +55,12 @@ gem 'devise'
 
 # Add SimpleForm
 gem 'simple_form'
+
+# Add Carrierwave
+gem 'carrierwave'
+
+# Add figaro
+gem 'figaro'
+
+# Add fog
+gem 'fog'
