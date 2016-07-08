@@ -70,3 +70,6 @@ gem 'mini_magick', '~> 4.3.1'
 
 # Add stripe
 gem 'stripe'
+
+# Add ranked-model
+gem 'ranked-model'
