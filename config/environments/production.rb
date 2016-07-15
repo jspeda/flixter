@@ -8,7 +8,7 @@ Flixter::Application.configure do
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both thread web servers
   # and those relying on copy on write to perform better.
-  # Rake tasks automatically ignore this option for performance.
+# Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
   # Full error reports are disabled and caching is turned on.
